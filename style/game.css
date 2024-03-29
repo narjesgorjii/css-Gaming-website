@@ -15,13 +15,22 @@
     src: url(../assets/fonts/Poppins-ExtraBold.ttf);
 }
 
+:root{
+    --narenji: #FA8305;
+    --banafsh:#5141AA;
+    --banafshtire: #3B2A9F;
+    --qahvei: #1C140F;
+    --siah: #070707;
+    --sefid:#FFFFFF;
+}
+
 html {
     position: relative;
     left: 40px;
 }
 
 body {
-    background-color: #3b2a9f;
+    background-color: var(--banafshtire);
     max-width: 1440px;
     margin: -5px;
     padding-bottom: 0px;
@@ -45,7 +54,7 @@ header nav {
 
 #logo {
     font-family: Poppins-ExtraBold;
-    color: #ffffff;
+    color: var(--sefid);
     position: relative;
     top: 30px;
     left: 60px;
@@ -54,7 +63,7 @@ header nav {
 
 nav a {
     font-family: Poppins-Regular;
-    color: white;
+    color: var(--sefid);
     font-size: 16px;
     margin-left: 70px;
     position: relative;
@@ -62,7 +71,7 @@ nav a {
 }
 
 a {
-    color: white;
+    color: var(--sefid);
     text-decoration: none;
     margin-right: 15px;
     margin-left: 20px;
@@ -70,8 +79,8 @@ a {
 
 #page_theme {
     font-family: Poppins-Regular;
-    color: white;
-    background-color: #fa8305;
+    color: var(--sefid);
+    background-color: var(--narenji);
     font-size: 16px;
     padding: 8px 25px 8px 17px;
     display: inline;
@@ -99,17 +108,17 @@ a {
 }
 
 #div1p {
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 13px;
 }
 
 #div1p span {
-    color: #fa8305;
+    color: var(--narenji);
 }
 
 #biglorem {
     font-family: Poppins-Bold;
-    color: white;
+    color: var(--sefid);
     font-size: 30px;
     line-height: 54px;
     width: 450px;
@@ -118,7 +127,7 @@ a {
 
 #smalllorem{
     font-family: Poppins-Regular;
-    color: white;
+    color: var(--sefid);
     font-size: 15px;
     line-height: 34px;
     width: 450px;
@@ -127,7 +136,7 @@ a {
 
 #div1a {
     font-family: Poppins-Medium;
-    background-color: #fa8305;
+    background-color: var(--narenji);
     padding: 10px 15px;
     border-radius: 30px;
     margin-top: 40px;
@@ -144,7 +153,7 @@ a {
 }
 
 #maindiv2 {
-    background-color: #3B2A9F;
+    background-color: var(--banafshtire);
     width: 1200px;
     margin-left: 115px;
     margin-top: 170px;
@@ -153,7 +162,7 @@ a {
 #maindiv2 h3 {
 
     font-family: Poppins-Regular;
-    color: white;
+    color: var(--sefid);
     font-size: 25px;
     font-size: 25px;
     bottom: 10px;
@@ -167,8 +176,8 @@ a {
 }
 
 #rect1{
-    color: white;
-    background-color: #1C140F;
+    color: var(--sefid);
+    background-color: var(--qahvei);
     width: 378;
     height: 348px;
     border-radius: 20px;
@@ -216,8 +225,8 @@ a {
 }
 
 #rect2{
-    color: white;
-    background-color: #1C140F;
+    color: var(--sefid);
+    background-color: var(--qahvei);
     width: 378;
     height: 348px;
     border-radius: 20px;
@@ -265,8 +274,8 @@ a {
 }
 
 #rect3{
-    color: white;
-    background-color: #1C140F;
+    color: var(--sefid);
+    background-color: var(--qahvei);
     width: 378;
     height: 348px;
     border-radius: 20px;
@@ -336,7 +345,7 @@ a {
 }
 
 #maindiv3_divp1 {
-    color: #ffffff;
+    color: var(--sefid);
     margin-top: 14px;
     font-family: Poppins-Medium;
     font-size: 16px;
@@ -344,7 +353,7 @@ a {
 
 #maindiv3_div h4 {
     font-family: Poppins-Medium;
-    color: #ffffff;
+    color: var(--sefid);
     background-color: inherit;
     margin-top: 14px;
     font-weight: 600;
@@ -353,7 +362,7 @@ a {
 
 #maindiv3_div p {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     background-color: inherit;
     margin-top: 14px;
     font-weight: 600;
@@ -361,7 +370,7 @@ a {
 }
 
 #maindiv4 {
-    background-color: #3B2A9F;
+    background-color:var(--banafshtire);
     width: 1264px;
     height: 351px;
     margin-left: 106px;
@@ -370,7 +379,7 @@ a {
 
 #title {
     font-family: Poppins-Bold;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 22px;
     margin-bottom: 57px;
 }
@@ -381,7 +390,7 @@ a {
 }
 
 #chardiv {
-    background-color: #1C140F;
+    background-color:var(--qahvei);
     width: 295px;
     height: 253px;
     border-radius: 20px;
@@ -415,7 +424,7 @@ a {
 
 #char1p1 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 19px;
     position: relative;
     width: 120px;
@@ -424,14 +433,14 @@ a {
 
 #char1p2 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 20px;
     font-weight: 300;
 }
 
 #char2p1 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 19px;
     position: relative;
     width: 120px;
@@ -440,14 +449,14 @@ a {
 
 #char2p2 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 20px;
     font-weight: 300;
 }
 
 #char3p1 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 19px;
     position: relative;
     width: 120px;
@@ -456,14 +465,14 @@ a {
 
 #char3p2 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 20px;
     font-weight: 300;
 }
 
 #char4p1 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 19px;
     position: relative;
     width: 120px;
@@ -472,7 +481,7 @@ a {
 
 #char4p2 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 20px;
     font-weight: 300;
 }
@@ -497,19 +506,19 @@ a {
 }
 
 #loremh3{       
-    color: #ffffff;
+    color: var(--sefid);
     font-family: Poppins-Regular;
     font-size: 30px;
 }
 
 #loremp{
-    color: #ffffff;
+    color: var(--sefid);
     font-family: Poppins-Regular;
     font-size: 18px;
 }
 
 #form{
-    background-color: #1C140F;
+    background-color: var(--qahvei);
     width: 1140px;
     height: 200px;
     border-radius: 10px;
@@ -526,18 +535,18 @@ a {
 
 #formh3{       
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 30px;
 }
 
 #formp{
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 16px;
 }
 
 #whiteinput{   
- background-color: #FFFFFF;
+ background-color: var(--sefid);
  padding: 10px 30px;
  border-radius: 8px;
  width: 385px;
@@ -555,7 +564,7 @@ a {
 }
 
 #orangebutton{
-    background-color: #FA8305;
+    background-color:var(--narenji);
     width: 105px;
     height: 37px;
     position: relative;
@@ -563,12 +572,12 @@ a {
     top: 70px;
     border-radius: 8px;
     border-style: none;
-    color: #FFFFFF;
+    color: var(--sefid);
     font-family: Poppins-Regular;
 }
 
 #footer {
-    background-color: #070707;
+    background-color:var(--siah);
     max-width: 1440px;
     bottom: 230px;
     height: 376px;
@@ -579,7 +588,7 @@ a {
 }
 
 #footerdiv {
-    background-color: #070707;
+    background-color: var(--siah);
     max-width: 1440px;
     left: 40px;
     position: relative;
@@ -587,7 +596,7 @@ a {
 
 #footerp1 {
     font-family: Poppins-ExtraBold;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 24px;
     bottom: 5px;
     position: relative;
@@ -595,7 +604,7 @@ a {
 
 #footerp2 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 16px;
     bottom: 15px;
     position: relative;
@@ -603,19 +612,19 @@ a {
 
 #footerp3 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 16px;
 }
 
 #footerp4 {
     font-family: Poppins-Medium;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 17px;
 }
 
 #footerp5 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 16px;
     line-height: 24px;
     top: 5px;
@@ -624,7 +633,7 @@ a {
 
 #footerp6 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 16px;
     top: 5px;
     position: relative;
@@ -632,7 +641,7 @@ a {
 
 #footerp7 {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 13px;
     right: 430px;
     top: 310px;
@@ -642,13 +651,13 @@ a {
 
 #footertitr {
     font-family: Poppins-Medium;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 17px;
 }
 
 #footerul {
     font-family: Poppins-Regular;
-    color: #ffffff;
+    color: var(--sefid);
     line-height: 29px;
     font-size: 16px;
     list-style-type: none;
@@ -688,7 +697,7 @@ a {
 }
 
 .fa-stack {
-    background-color: white;
+    background-color: var(--sefid);
     width: 34px;
     height: 34px;
     border-radius: 100px;
@@ -699,7 +708,7 @@ a {
 
 #footerspan {
     font-family: Poppins-Bold;
-    color: #ffffff;
+    color: var(--sefid);
     font-size: 13px;
 }
 
